@@ -311,7 +311,76 @@ So far, I have not found a power bank that integrates well with this system. The
 
 If you have suggestions for a power bank solution that is large enough for extended shoots and can be mounted securely in a compact rig, I’d love to hear about it!
 
-### Chapter 6 – Demo Time
+
+### Chapter 6 – Recommended Settings
+
+This chapter documents the settings I currently use for video recording. These settings are optimized for stability, predictable behavior, and minimal post-processing effort. They are intended as a reference rather than a universal recommendation and may evolve over time as firmware, apps, or mods change.
+
+#### Android Settings
+
+- Settings->About phone->RAM->Ram boost->deactivate
+
+#### mcpro24fps Settings
+
+The following configuration is what I use when recording Log or DCG-based video with mcpro24fps. The focus is on stable 4K60 recording, consistent exposure, and files that integrate well into a professional post-production workflow.
+
+**General Settings**
+
+Viewfinder:
+- EV of scene: On
+- Temperature of scene: On
+- Safe area: 16:9
+- Grid: 3×3
+
+Control:
+- AWB autolock: during recording
+- AW autolock: during recording
+- Maximal zoom: 1.5×
+
+Interface:
+- Show information: Codec, Bit, WB, Curve
+
+**Video Settings**
+- Resolution: 3840 × 2160 @ 60 fps (without Camera mods)
+- Resolution: 4608 × 2592  @ 60 fps (with 4.6K60p active in MTM)
+- GPU: Off
+
+Codec:
+- Codec: HEVC
+- Color depth: 10-bit
+- Bitrate: 160 Mb/s or
+- Bitrate: 2x160 Mb/s with Bitrate hack enabled.
+- Bitrate mode: Constant
+
+Hardware:
+- Noise reduction: Off
+- Sharpness: Off
+- Stabilisation: Optical
+
+Gamut / Color:
+- Manual white balance
+- A Wide gamut
+- mLog-C
+
+Recording:
+- manual
+- ISO 100-400 for DCG (max ISO 1600 for noisefree videos)
+- 1/120
+
+These settings allow recording at **4.6K at 60 fps** when the appropriate mods are installed. If you prefer a more cinematic look, switching to **24 fps** and setting the shutter speed to **1/48** is recommended. This also makes it possible to reduce ISO further, which can help improve overall image quality.
+
+Regarding bitrate, the Motorola Edge 50 Ultra supports a bitrate unlock. While higher bitrates can be enabled, I have not observed a meaningful difference between **160 Mb/s, 250 Mb/s, and 320 Mb/s** at 4.6K 60 fps in practical use. For this reason, I tend to recommend **160 Mb/s** as a pragmatic setting that does not introduce a visible quality compromise while keeping file sizes and system load under control.
+
+At the moment, I am recording in **ARRI Wide Gamut with ARRI LogC3**, and I am still undecided about this choice. I initially settled on LogC3 because it allows me to perform color grading in **DaVinci Resolve using the ARRI color management**, which results in a very intuitive and predictable grading workflow.
+
+One downside of LogC3, however, is that **many colors outside of skin tones are heavily compressed**. Compared to formats like mLog60, noticeably less detail is retained in extreme highlights, such as a blown-out sky. In these situations, **mLog60 preserves highlight detail significantly better**, which makes it an attractive option for studio work or outdoor scenes with high dynamic range.
+
+The drawback of mLog60 is the complexity of grading. Skin tones in particular tend to shift easily and can pick up color casts during grading. To work around this, I would need to apply a **LUT-based transformation from mLog60 to ARRI LogC3** and then perform my grading on top of that. This conversion step is relatively expensive in terms of render performance and also makes the grading workflow feel slower and less responsive overall.
+
+So far, I have not found an optimal solution that combines the highlight retention of mLog60 with the grading efficiency and responsiveness of ARRI LogC3. This is still an open topic in my workflow and will likely evolve over time.
+
+
+### Chapter 7 – Demo Time
 
 - https://www.youtube.com/watch?v=NOJr4bu0_Kc
 - https://www.youtube.com/watch?v=SFImdQAs5PM
