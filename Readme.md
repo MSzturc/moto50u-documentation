@@ -228,27 +228,6 @@ In summary, without root the Motorola Edge 50 Ultra is a capable camera smartpho
 - **Camera Watchdog** is a KernelSU module designed to improve recording stability when using demanding camera apps such as MotionCam or mcpro24fps. It automatically detects active camera apps and temporarily switches the device into a dedicated recording performance state, optimizing CPU, GPU, memory, storage I/O, and process priorities to prevent dropped frames. The goal is not higher peak performance, but predictable, sustained throughput for long, high-bitrate video recordings under real-world thermal constraints.
 - **Performance Motorola50Ultra** is a performance-focused KernelSU module intended for maximum camera throughput. It locks UFS at 403 MHz, increases DDR frequency to 2736 MHz, optimizes memory writeback to avoid stalls, and boosts L3/LLCC behavior, targeting significantly higher sustained performance during recording. This variant is designed for advanced users only, as it prioritizes throughput over thermals and can be used to extend recording sessions of some camera modules that unlock modes that are out of spec.
 
-#### MTM Tiles
-
-This is a list of all camera-related modules currently installed in ModuleTileManager on my device. Some of these modules are **not publicly available** at the time of writing and may or may not be released in the future. This section should be considered **documentation of my current setup only**. I will not answer questions regarding sources, availability, or release timelines. As long as the respective authors have not released these modules publicly, I will not share them or link to them.
-
-- **4.6K60p** - Enables 4.6K recording at 60 fps with DCG active across all camera apps.
-
-- **4K100p** - Enables 4K recording at 100 fps in MotionCam.
-
-- **4K120p** - Enables 4K recording at 120 fps across all camera apps.
-
-- **8K24p** - Enables 8K recording at 24 fps in MotionCam.
-
-- **8K30p** - Enables 8K recording at 30 fps in MotionCam.
-
-- **DCG2** - A DCG variant using alternative gain tables and fixed white balance. It provides less dynamic range than DCG4 but is more practical and predictable in controlled studio environments.
-
-- **DCG4** - Forces the sensor to operate in DCG mode across all camera apps.
-
-- **DCG8** - A DCG variant that extends dynamic range compared to traditional DCG operation.
-
-
 ### Chapter 5 – Recommended Hardware
 
 - **[Case](https://s.click.aliexpress.com/e/_c3uoW7ZB)** - This case forms the foundation of my smartphone setup. In addition to basic protection, it integrates a **MagSafe-compatible ring**, which allows magnetic accessories to be attached securely. For my workflow, it is essential to be able to assemble and disassemble a setup within seconds, which is why I strongly prefer **quick-mount solutions**. Unlike many other cases, the MagSafe ring is **embedded inside the case** rather than glued onto the surface. This prevents the ring from scratching in pockets and avoids lint or dust accumulation around the magnet. Another practical design detail is that the case converts the rounded camera bump into a **more squared-off shape**, which makes it significantly easier to mount and align camera-related accessories.
