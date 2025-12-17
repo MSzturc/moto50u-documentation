@@ -226,7 +226,6 @@ In summary, without root the Motorola Edge 50 Ultra is a capable camera smartpho
 #### KernelSU Modules
 
 - **Camera Watchdog** is a KernelSU module designed to improve recording stability when using demanding camera apps such as MotionCam or mcpro24fps. It automatically detects active camera apps and temporarily switches the device into a dedicated recording performance state, optimizing CPU, GPU, memory, storage I/O, and process priorities to prevent dropped frames. The goal is not higher peak performance, but predictable, sustained throughput for long, high-bitrate video recordings under real-world thermal constraints.
-- **GeoreKiarie Thermal Off** is a KernelSU module that allows thermal throttling to be disabled completely. This can be useful in controlled environments or when external cooling is applied, as it prevents system-enforced frequency reductions triggered by individual thermal sensors. It should be used with caution, as disabling thermal limits removes built-in safety mechanisms and requires the user to actively manage device temperatures.
 - **Performance Motorola50Ultra** is a performance-focused KernelSU module intended for maximum camera throughput. It locks UFS at 403 MHz, increases DDR frequency to 2736 MHz, optimizes memory writeback to avoid stalls, and boosts L3/LLCC behavior, targeting significantly higher sustained performance during recording. This variant is designed for advanced users only, as it prioritizes throughput over thermals and can be used to extend recording sessions of some camera modules that unlock modes that are out of spec.
 
 #### MTM Tiles
@@ -384,3 +383,15 @@ So far, I have not found an optimal solution that combines the highlight retenti
 
 - https://www.youtube.com/watch?v=NOJr4bu0_Kc
 - https://www.youtube.com/watch?v=SFImdQAs5PM
+
+
+### Chapter 8 – Resources
+
+- **[Motorola Edge 50 Ultra | Community on Telegram](https://t.me/MotorolaEdge50Ultra)**  
+  This is the primary place to ask device-specific questions, exchange experiences, and connect with other users of the Motorola Edge 50 Ultra. It is usually the fastest way to get practical help related to hardware, firmware, or general usage.
+
+- **[mcpro24fps.english on Telegram](https://t.me/mcpro24fps_en)**  
+  This is the main resource for questions related to filming with mcpro24fps. It is well suited for discussing settings, workflows, and app-specific behavior.
+
+- **[MotionCam on Discord](https://discord.gg/Vy4gQNEdNS)**  
+  This is the primary place for questions and discussions around MotionCam, especially when working with RAW video, experimental modes, or advanced recording setups.
