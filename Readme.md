@@ -357,11 +357,26 @@ The drawback of mLog60 is the complexity of grading. Skin tones in particular te
 
 So far, I have not found an optimal solution that combines the highlight retention of mLog60 with the grading efficiency and responsiveness of ARRI LogC3. This is still an open topic in my workflow and will likely evolve over time.
 
+### Chapter 7 – Grading in DaVinci Resolve
+
+A deep dive into color grading is outside the scope of this guide. However, for users who are familiar with recording in Rec.709 and want to explore Log-based workflows, the following resources provide a solid starting point.
+
+- **[From Start to Finish: Mastering Color Grading in DaVinci Resolve](https://www.youtube.com/watch?v=joJ5_o278PU)**  
+  In my opinion, this is one of the most complete and well-structured introductions to color grading in DaVinci Resolve. It covers the entire workflow from import to final delivery and is a very good foundation for understanding color management and grading concepts.
+
+- **[Color Grading the Sony ZV-1 in DaVinci Resolve: S-Log2, S-Log3 and HLG](https://www.youtube.com/watch?v=hJHCHx8QRfs)**  
+  In the previous chapter, I discussed ARRI LogC3. This video illustrates how straightforward grading can be when working with LogC-based workflows, and how cumbersome it can become with formats such as HLG or Sony’s S-Log3 in comparison.
+
+- **[How to Shoot LOG with your Smartphone // mcpro24fps Tutorial (Gamut + Gamma Curves)](https://www.youtube.com/watch?v=d97L5U_wNe8)**  
+  This video provides a good introduction to shooting Log footage on smartphones. The most valuable part is the final third, where it clearly demonstrates how much highlight and shadow detail different Log formats can recover in high-contrast scenes.
+
 
 ### Chapter 7 – Demo Time
 
-- https://www.youtube.com/watch?v=NOJr4bu0_Kc
-- https://www.youtube.com/watch?v=SFImdQAs5PM
+The following videos demonstrate what is technically possible when using mcpro24fps and RAW or Log-based workflows. They serve as practical references rather than benchmarks.
+
+- **[Christmas Market – Rudolfplatz, Cologne](https://www.youtube.com/watch?v=SFImdQAs5PM)**  
+  A real-world low-light scenario with mixed lighting conditions, highlighting dynamic range handling and color behavior.
 
 
 ### Chapter 8 – Resources
