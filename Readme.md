@@ -274,6 +274,10 @@ In summary, without root the Motorola Edge 50 Ultra is a capable camera smartpho
 - **[Magnetic Cell Phone Cooler](https://s.click.aliexpress.com/e/_c3FqKnC9)** *(not recommended)*  
   When recording RAW video, the smartphone can become very warm. Since the Edge 50 Ultra uses a vapor chamber and graphene panels to distribute heat internally, I initially hoped that attaching a Peltier-based cooler to the back of the device would meaningfully reduce operating temperatures during recording. In practice, this did not work as expected. The CPU, GPU, and camera module are physically far away from the area where the cooler is mounted on the back of the phone. As a result, there was **no significant temperature difference** at these components with or without the cooler attached, and therefore **no measurable performance improvement** during recording. The only noticeable effect was on battery temperature. In this area, a temperature reduction of approximately **8°C** could be measured. This may have a positive effect on long-term battery longevity, but this is speculative and difficult to quantify. Overall, I do not recommend this cooler for performance or recording stability. It is included here mainly because it is a common accessory that many users will likely come across and consider purchasing.
   ![Motorola Edge 50 Ultra](./images/cooler.jpg)
+- **[SSD Heatsink](https://s.click.aliexpress.com/e/_c2Jw1s6t)** *(**recommended** for RAW recording with MotionCam)*  
+  When recording RAW video directly to an external SSD, the drive can become noticeably hot over time. While the magnetic phone cooler did help reduce SSD temperatures, it felt like overkill for this specific use case. In my experience, a dedicated SSD heatsink is the more practical and efficient solution.
+  This heatsink is made from aluminum and weighs roughly **three times more than the standard enclosure cover**, which significantly improves passive heat dissipation. It also includes a latch with an integrated **MagSafe magnet**, which means you don’t lose the ability to daisy-chain multiple MagSafe accessories as part of the overall rig.
+  ![Motorola Edge 50 Ultra](./images/CoolerRing.jpg)
 - **[MagSafe Tripod](https://s.click.aliexpress.com/e/_c3fpuICp)** *(must have)*  
   If there is one accessory you should add to a MagSafe-based setup, it is this compact tripod. It is fully machined from aluminum, feels solid, and does not flex or wobble. The integrated **MagSafe mount** allows the phone to be attached and removed instantly, which is ideal for fast setup changes. 
   ![Motorola Edge 50 Ultra](./images/Stand.jpg)
@@ -281,6 +285,14 @@ In summary, without root the Motorola Edge 50 Ultra is a capable camera smartpho
   ![Motorola Edge 50 Ultra](./images/Stand2.jpg)
   With this tripod, there is no need to use traditional smartphone clamps anymore. It significantly speeds up setup, improves rigidity, and integrates cleanly into professional tripod and rig systems.
   ![Motorola Edge 50 Ultra](./images/Stand3.jpg)
+- **[Magnetic Patch Adapter Ring](https://s.click.aliexpress.com/e/_c2vscTKd)** *(mixed feelings)*  
+  This adapter is useful if you already own devices such as an external SSD or power bank that do not have built-in MagSafe support, but you still want to integrate them into a MagSafe-based rig without buying entirely new hardware. The adapter consists of a MagSafe-compatible magnetic ring combined with elastic straps that allow other devices to be securely attached.
+  ![Motorola Edge 50 Ultra](./images/MagsafeConnector0.jpg)
+  In practice, the solution works better than expected. Even relatively thin devices like my external SSD remained stable, without noticeable wobble, and at no point did I feel that the attached device might fall off during use.
+  I also tested adhesive MagSafe rings that are glued directly onto devices. Over time, the adhesive proved to be a weak point: the magnets are strong, and repeatedly attaching and removing accessories puts constant stress on the glue until it eventually fails. Compared to that, the strap-based adapter ring is mechanically more reliable, even if it is not as elegant or compact.
+  ![Motorola Edge 50 Ultra](./images/MagsafeConnector.jpg)
+
+
 
 
 #### What’s still missing / open questions
