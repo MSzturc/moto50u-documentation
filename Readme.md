@@ -210,6 +210,7 @@ In summary, without root the Motorola Edge 50 Ultra is a capable camera smartpho
     - TrickyAddonModule
     - PlayIntegrityFork
     - DeviceID-Changer
+    - bindhosts
 
 ---
 
@@ -229,6 +230,9 @@ In summary, without root the Motorola Edge 50 Ultra is a capable camera smartpho
   - **MotionCam Pro** is my preferred app when recording in RAW. With the appropriate mods, it allows recording at **8K 30 fps** or **4K 100 fps**. Unlike most camera apps, MotionCam does not rely on the SoC’s ISP, which gives it full control over the image processing pipeline. This approach comes at a cost: MotionCam is significantly more resource-intensive and consumes noticeably more power compared to mcpro24fps. If you are aiming for absolute maximum image quality and are comfortable working with very large files (for example, **more than 1 GB for 5 seconds of footage**), MotionCam is capable of delivering the best results the sensor can produce.
 - **Mod Tile Manager (MTM)** is a tool that allows camera-related modules and settings to be enabled or disabled on the fly. Unlike KernelSU modules, which are injected at boot time, MTM can inject modules dynamically while the system is running. This makes it possible to activate or deactivate camera modules without rebooting the device, which is especially useful when switching between different recording modes or workflows.
 - **DeviceInfoOverlay** is a lightweight overlay app that displays real-time performance metrics on top of other apps, such as CPU frequency, RAM usage, battery level and voltage, and system load. It can show CPU and GPU load/frequency, refresh rate, network traffic, and other live data over any running app, with customizable transparency and layout.
+- **Droid-ify** is an open-source app store and client for **F-Droid** repositories. I mainly use it to manage utility tools and system-related apps that are not available on the Play Store. It provides a clean and fast interface to discover, install, and update open-source apps without ads or tracking.  
+- **App Manager** is a powerful tool for inspecting and managing installed applications. I mainly use it to analyze apps in order to understand which trackers they include and which permissions they request from the operating system. It also allows you to create **custom shortcuts** for specific apps, which is especially useful when testing multiple versions of GCam. Since many of them are simply labeled “GCam,” it becomes difficult to distinguish between versions in the app launcher without custom shortcuts. App Manager is particularly useful on **rooted devices**, where it provides deeper insight and control over both system and user apps. For example, it allows granting permissions that the operating system normally restricts when apps are installed from APKs rather than certified app stores.
+- **MiXplorer** is the Swiss Army knife among file managers. If there’s any file-based task you want to perform—such as viewing or editing text files, unzipping archives, or copying files between locations—there’s a high chance MiXplorer can handle it without requiring an additional app. It supports managing local storage, external drives, and network locations. I mainly use it for browsing and modifying the filesystem on rooted devices, including access to system directories that are normally restricted. MiXplorer supports root access, archive handling, batch operations, and direct interaction with USB storage such as external SSDs.
 
 #### KernelSU Modules
 
